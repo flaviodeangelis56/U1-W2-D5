@@ -119,164 +119,86 @@ const charactersArray = ["g", "n", "u", "z", "d"];
 const numberArray = [];
 for (let i = 0; i < charactersArray.length; i++) {
   console.log(charactersArray[i]);
-  if (charactersArray[i] === "a") {
-    numberArray.push(1);
-  }
-  if (charactersArray[i] === "b") {
-    numberArray.push(2);
-  }
-  if (charactersArray[i] === "c") {
-    numberArray.push(3);
-  }
-  if (charactersArray[i] === "d") {
-    numberArray.push(4);
-  }
-  if (charactersArray[i] === "e") {
-    numberArray.push(5);
-  }
-  if (charactersArray[i] === "f") {
-    numberArray.push(6);
-  }
-  if (charactersArray[i] === "g") {
-    numberArray.push(7);
-  }
-  if (charactersArray[i] === "h") {
-    numberArray.push(8);
-  }
-  if (charactersArray[i] === "i") {
-    numberArray.push(9);
-  }
-  if (charactersArray[i] === "j") {
-    numberArray.push(10);
-  }
-  if (charactersArray[i] === "k") {
-    numberArray.push(11);
-  }
-  if (charactersArray[i] === "l") {
-    numberArray.push(12);
-  }
-  if (charactersArray[i] === "m") {
-    numberArray.push(13);
-  }
-  if (charactersArray[i] === "n") {
-    numberArray.push(14);
-  }
-  if (charactersArray[i] === "o") {
-    numberArray.push(15);
-  }
-  if (charactersArray[i] === "p") {
-    numberArray.push(16);
-  }
-  if (charactersArray[i] === "q") {
-    numberArray.push(17);
-  }
-  if (charactersArray[i] === "r") {
-    numberArray.push(18);
-  }
-  if (charactersArray[i] === "s") {
-    numberArray.push(19);
-  }
-  if (charactersArray[i] === "t") {
-    numberArray.push(20);
-  }
-  if (charactersArray[i] === "u") {
-    numberArray.push(21);
-  }
-  if (charactersArray[i] === "v") {
-    numberArray.push(22);
-  }
-  if (charactersArray[i] === "w") {
-    numberArray.push(23);
-  }
-  if (charactersArray[i] === "x") {
-    numberArray.push(24);
-  }
-  if (charactersArray[i] === "y") {
-    numberArray.push(25);
-  }
-  if (charactersArray[i] === "z") {
-    numberArray.push(26);
-  }
-  //   switch (charactersArray[i]) {
-  //     case charactersArray[i] === "a":
-  //       numberArray.push(1);
-  //       break;
-  //     case charactersArray[i] === "b":
-  //       numberArray.push(2);
-  //       break;
-  //     case charactersArray[i] === "c":
-  //       numberArray.push(3);
-  //       break;
-  //     case charactersArray[i] === "d":
-  //       numberArray.push(4);
-  //       break;
-  //     case charactersArray[i] === "e":
-  //       numberArray.push(5);
-  //       break;
-  //     case charactersArray[i] === "f":
-  //       numberArray.push(6);
-  //       break;
-  //     case charactersArray[i] === "g":
-  //       numberArray.push(7);
-  //       break;
-  //     case charactersArray[i] === "h":
-  //       numberArray.push(8);
-  //       break;
-  //     case charactersArray[i] === "i":
-  //       numberArray.push(9);
-  //       break;
-  //     case charactersArray[i] === "j":
-  //       numberArray.push(10);
-  //       break;
-  //     case charactersArray[i] === "k":
-  //       numberArray.push(11);
-  //       break;
-  //     case charactersArray[i] === "l":
-  //       numberArray.push(12);
-  //       break;
-  //     case charactersArray[i] === "m":
-  //       numberArray.push(13);
-  //       break;
-  //     case charactersArray[i] === "n":
-  //       numberArray.push(14);
-  //       break;
-  //     case charactersArray[i] === "o":
-  //       numberArray.push(15);
-  //       break;
-  //     case charactersArray[i] === "p":
-  //       numberArray.push(16);
-  //       break;
-  //     case charactersArray[i] === "q":
-  //       numberArray.push(17);
-  //       break;
-  //     case charactersArray[i] === "r":
-  //       numberArray.push(18);
-  //       break;
-  //     case charactersArray[i] === "s":
-  //       numberArray.push(19);
-  //       break;
-  //     case charactersArray[i] === "t":
-  //       numberArray.push(20);
-  //       break;
-  //     case charactersArray[i] === "u":
-  //       numberArray.push(21);
-  //       break;
-  //     case charactersArray[i] === "v":
-  //       numberArray.push(22);
-  //       break;
-  //     case charactersArray[i] === "w":
-  //       numberArray.push(23);
-  //       break;
-  //     case charactersArray[i] === "x":
-  //       numberArray.push(24);
-  //       break;
-  //     case charactersArray[i] === "y":
-  //       numberArray.push(25);
-  //       break;
-  //     case charactersArray[i] === "z":
-  //       numberArray.push(26);
-  //       break;
 
-  //   }
+  switch (charactersArray[i]) {
+    case "a":
+      numberArray.push(1);
+      break;
+    case "b":
+      numberArray.push(2);
+      break;
+    case "c":
+      numberArray.push(3);
+      break;
+    case "d":
+      numberArray.push(4);
+      break;
+    case "e":
+      numberArray.push(5);
+      break;
+    case "f":
+      numberArray.push(6);
+      break;
+    case "g":
+      numberArray.push(7);
+      break;
+    case "h":
+      numberArray.push(8);
+      break;
+    case "i":
+      numberArray.push(9);
+      break;
+    case "j":
+      numberArray.push(10);
+      break;
+    case "k":
+      numberArray.push(11);
+      break;
+    case "l":
+      numberArray.push(12);
+      break;
+    case "m":
+      numberArray.push(13);
+      break;
+    case "n":
+      numberArray.push(14);
+      break;
+    case "o":
+      numberArray.push(15);
+      break;
+    case "p":
+      numberArray.push(16);
+      break;
+    case "q":
+      numberArray.push(17);
+      break;
+    case "r":
+      numberArray.push(18);
+      break;
+    case "s":
+      numberArray.push(19);
+      break;
+    case "t":
+      numberArray.push(20);
+      break;
+    case "u":
+      numberArray.push(21);
+      break;
+    case "v":
+      numberArray.push(22);
+      break;
+    case "w":
+      numberArray.push(23);
+      break;
+    case "x":
+      numberArray.push(24);
+      break;
+    case "y":
+      numberArray.push(25);
+      break;
+    case "z":
+      numberArray.push(26);
+      break;
+  }
 }
 console.log(numberArray);
