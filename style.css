@@ -1,0 +1,92 @@
+.body {
+  margin: 0;
+  background-color: rgba(233, 237, 238, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  margin-inline: 30px;
+}
+
+.div1 {
+  height: 75px;
+  background-color: white;
+  margin-inline: 10px;
+  margin-left: 500px;
+}
+.sfondologo {
+  background-color: rgb(34, 47, 63, 255);
+  margin: 0;
+}
+.immagine {
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.whitegray {
+  background-color: rgb(54, 71, 89, 255);
+  margin: 0;
+  height: 30px;
+}
+.lista {
+  display: inline;
+  color: white;
+  padding-inline: 10px;
+  padding-top: 15px;
+}
+.orange {
+  background-color: rgb(245, 102, 0, 255);
+  color: white;
+}
+.centro {
+  text-align: center;
+}
+.immagine1 {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  padding-inline: 30px;
+  border-radius: 40px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.left {
+  margin-left: 0px;
+}
+.immaginesfondo {
+  background-image: url(assets/bg-image.png);
+  color: white;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.scritte {
+  display: inline;
+}
+.scritte1 {
+  display: inline;
+  color: rgba(51, 125, 138, 255);
+}
+.Back {
+  color: white;
+}
+.immagine2 {
+  width: 1250px;
+  padding-inline: auto;
+}
+.scritte2 {
+  color: black;
+}
+span {
+  color: rgba(51, 125, 138, 255);
+}
+a {
+  color: white;
+}
+.logoend {
+  margin-inline: 500px;
+}
+.holiday {
+  padding-top: 50px;
+}
+ul {
+  margin: 0;
+}
